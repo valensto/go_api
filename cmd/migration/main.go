@@ -6,7 +6,7 @@ import (
 	"os"
 
 	config "github.com/valensto/api_apbp/configs"
-	"github.com/valensto/api_apbp/internal/store"
+	"github.com/valensto/api_apbp/infra/store"
 )
 
 func main() {

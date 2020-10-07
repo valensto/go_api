@@ -8,10 +8,10 @@ import (
 
 	"github.com/go-chi/chi"
 
+	"github.com/valensto/api_apbp/api/formator"
 	config "github.com/valensto/api_apbp/configs"
-	"github.com/valensto/api_apbp/internal/formator"
-	"github.com/valensto/api_apbp/internal/repo"
-	"github.com/valensto/api_apbp/internal/store"
+	"github.com/valensto/api_apbp/infra/repo"
+	"github.com/valensto/api_apbp/infra/store"
 	"github.com/valensto/api_apbp/pkg/mailer"
 	validator "github.com/valensto/api_apbp/pkg/validator"
 )

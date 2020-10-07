@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/valensto/api_apbp/internal/repo/order"
-	"github.com/valensto/api_apbp/internal/repo/product"
-	"github.com/valensto/api_apbp/internal/repo/user"
+	"github.com/valensto/api_apbp/infra/repo/order"
+	"github.com/valensto/api_apbp/infra/repo/product"
+	"github.com/valensto/api_apbp/infra/repo/user"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 )

@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/labstack/gommon/color"
+	"github.com/valensto/api_apbp/api"
 	config "github.com/valensto/api_apbp/configs"
-	"github.com/valensto/api_apbp/internal/api"
-	"github.com/valensto/api_apbp/internal/store"
+	"github.com/valensto/api_apbp/infra/store"
 	"github.com/valensto/api_apbp/pkg/mailer"
 )
 

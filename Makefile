@@ -28,10 +28,10 @@ install:
 	$(MAKE) go_build
 
 init:
-ifeq ($(MIGRATE), true)
+ifeq ($(migrate), true)
 	$(MAKE) go_migrate
 endif
-ifeq ($(DEV), true)
+ifeq ($(dev), true)
 	reflex -sr '\.go$$' -- make restart
 else
 	$(MAKE) go_build
@@ -44,10 +44,10 @@ restart:
 	@$(MAKE) go_run
 
 run: 
-ifeq ($(DEV), true)
-	@echo "DEV=$(DEV)\nMIGRATE=$(MIGRATE)" > .env.docker && docker-compose up --force-recreate
+ifeq ($(dev), true)
+	@echo "dev=$(dev)\migrate=$(migrate)" > .env.docker && docker-compose up --force-recreate
 endif
-	@echo "DEV=$(DEV)\nMIGRATE=$(MIGRATE)" > .env.docker && docker-compose up --force-recreate -d 
+	@echo "dev=$(dev)\migrate=$(migrate)" > .env.docker && docker-compose up --force-recreate -d 
 
 clear:
 	docker-compose down

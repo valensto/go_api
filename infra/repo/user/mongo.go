@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/valensto/api_apbp/internal/repo"
+	"github.com/valensto/api_apbp/infra/repo"
 	"github.com/valensto/api_apbp/pkg/filter"
 	"github.com/valensto/api_apbp/pkg/pagination"
 	"go.mongodb.org/mongo-driver/bson"

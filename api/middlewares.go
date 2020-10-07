@@ -10,7 +10,7 @@ import (
 	"github.com/go-chi/chi/middleware"
 	"github.com/go-chi/cors"
 	"github.com/go-chi/httprate"
-	"github.com/valensto/api_apbp/internal/session"
+	"github.com/valensto/api_apbp/api/session"
 )
 
 func (s *Server) commonMW() {

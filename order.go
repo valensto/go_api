@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/valensto/api_apbp/internal/repo/order"
-	"github.com/valensto/api_apbp/internal/repo/user"
+	"github.com/valensto/api_apbp/infra/repo/order"
+	"github.com/valensto/api_apbp/infra/repo/user"
 	"github.com/valensto/api_apbp/pkg/mailer"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )

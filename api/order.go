@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/valensto/api_apbp"
-	"github.com/valensto/api_apbp/internal/formator"
-	"github.com/valensto/api_apbp/internal/repo/order"
-	"github.com/valensto/api_apbp/internal/session"
+	"github.com/valensto/api_apbp/api/formator"
+	"github.com/valensto/api_apbp/api/session"
+	"github.com/valensto/api_apbp/infra/repo/order"
 	"github.com/valensto/api_apbp/pkg/filter"
 	"github.com/valensto/api_apbp/pkg/pagination"
 	"go.mongodb.org/mongo-driver/bson/primitive"

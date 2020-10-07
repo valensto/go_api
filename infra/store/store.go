@@ -4,9 +4,9 @@ import (
 	"context"
 
 	config "github.com/valensto/api_apbp/configs"
-	"github.com/valensto/api_apbp/internal/repo/order"
-	"github.com/valensto/api_apbp/internal/repo/product"
-	"github.com/valensto/api_apbp/internal/repo/user"
+	"github.com/valensto/api_apbp/infra/repo/order"
+	"github.com/valensto/api_apbp/infra/repo/product"
+	"github.com/valensto/api_apbp/infra/repo/user"
 	"go.mongodb.org/mongo-driver/mongo"
 )
 

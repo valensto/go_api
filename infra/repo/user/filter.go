@@ -1,7 +1,7 @@
 package user
 
 import (
-	mongorepo "github.com/valensto/api_apbp/internal/repo/mongo"
+	mongorepo "github.com/valensto/api_apbp/infra/repo/mongo"
 	"github.com/valensto/api_apbp/pkg/filter"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"

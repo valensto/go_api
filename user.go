@@ -3,7 +3,7 @@ package api_apbp
 import (
 	"time"
 
-	"github.com/valensto/api_apbp/internal/repo/user"
+	"github.com/valensto/api_apbp/infra/repo/user"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 

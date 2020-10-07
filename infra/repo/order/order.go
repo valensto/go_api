@@ -3,7 +3,7 @@ package order
 import (
 	"time"
 
-	"github.com/valensto/api_apbp/internal/repo/user"
+	"github.com/valensto/api_apbp/infra/repo/user"
 	"github.com/valensto/api_apbp/pkg/filter"
 	"github.com/valensto/api_apbp/pkg/pagination"
 	"go.mongodb.org/mongo-driver/bson/primitive"
